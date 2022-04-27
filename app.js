@@ -100,7 +100,7 @@ function populateEpisodes(episodes) {
       `<li class="mb-3">
          <a href="${episode.url}" target="blank" class="list-group-item list-group-item-action">
          <span class="m-0 fs-5 fw-bold text-primary">Season ${episode.season}, Ep. ${episode.number} - ${episode.name}</span>
-         <p class="m-0">${episode.summary}</p>
+         <p class="m-0 fs-6">${episode.summary}</p>
          <img src="${episode.image}" alt="episode preview image" class="m-0">
          </a>
        </li>
